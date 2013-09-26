@@ -1,0 +1,16 @@
+<div id="container">
+  <div id="glob">
+    <h2>Enter your glob</h2>
+    <input type="text" id="glob-input" placeholder="**/*" />
+    <p>Matched files will be highlighted in red.</p>
+    <p>The glob is run through Ruby 1.9.3's <code>Dir[glob]</code> method.</p>
+    <p><a href="#" data-glob="src/**/*.css" id="example">See an example</a></p>
+  </div>
+
+  <div id="out">
+    <h2>Files</h2>
+    <ul id="files"></ul>
+  </div>
+  <div id="foot">
+    <p>A quick evening hack by <a href="http://twitter.com/Jack_Franklin">Jack Franklin</a>.</p>
+</div>
