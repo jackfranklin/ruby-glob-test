@@ -34,7 +34,7 @@ $(function() {
     runGlob(glob);
   });
 
-  $("#example").on("click", function() {
+  $(".example").on("click", function() {
     runGlob($(this).data("glob"));
     $("#glob-input").val($(this).data("glob"));
   });
